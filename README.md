@@ -103,3 +103,26 @@ The extra `-p $PORT` makes it Heroku ready, which is nice (and, by
 default, will make our app show up on port 5000 instead of 9292).
 
 Ok, this is enough for today. See you tomorrow!
+
+## 2.12
+
+### A slowdown, alredy.
+
+So, today's been a bit of a hectic one. I ended up programming more than
+one hour, but not for pleasure.
+Anyway, I spent some time rethinking this project, turns out I jumped on
+this challenge without putting much thought onto it, as it happens.
+Today the "question train" caught up and hit me hard; I'm not really
+sure the original idea I had is going to be sustainablbe for one full
+month. I may still use it,  but I'm rekindling the fire under some "old new"
+ideas that have been put on the back burner for far too long.
+I may be able to put a some of them to good use. You know, closure and
+all of that.
+
+I played with the code in a few directions, then I scrapped all of it.
+It happens, it's fun because git lets you do that without fear of losing
+anything really (it comes at the cost of a handful of sanity points, but
+you'll thank yourself later, once you'll be assimilated of course).
+
+So that's it, no code commit for today. Only a handful of words, and
+a little more inner clarity, hopefully.

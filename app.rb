@@ -3,7 +3,7 @@ require 'sinatra/base'
 class App < Sinatra::Base
   register Sinatra::CrossOrigin
 
-  enable :cross_origin
+ enable :cross_origin
 
   set :cross_origin, true
   set :allow_origin, :any
@@ -20,6 +20,14 @@ class App < Sinatra::Base
   end
 
   get '/' do
-    "Hello World"
+    redirect to('/items')
+  end
+
+  get '/items' do
+    content_type :json
+
+    items = []
+
+    json items
   end
 end

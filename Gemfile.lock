@@ -1,6 +1,14 @@
+GIT
+  remote: https://github.com/stympy/faker.git
+  revision: e8c4314a4347c6a530311b4a542c37a768ef1a59
+  specs:
+    faker (1.6.1)
+      i18n (~> 0.5)
+
 GEM
   remote: http://rubygems.org/
   specs:
+    i18n (0.7.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -15,6 +23,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  faker!
   sinatra
   sinatra-cross_origin
 

@@ -126,3 +126,20 @@ you'll thank yourself later, once you'll be assimilated of course).
 
 So that's it, no code commit for today. Only a handful of words, and
 a little more inner clarity, hopefully.
+
+## 3.12
+
+### Fake Resources
+
+Another step ahead. A little more foundation laid down.
+We're going to use the Faker gem to mock most of the content of the data
+served by our fake API, the API will respond in json format, and we set
+up the app to handle CORS requests.
+
+Finally, we created a module, called FakeResource, that we'll use for
+common methods for our fake resources.
+
+Enough for today, ttyl.
+
+
+
